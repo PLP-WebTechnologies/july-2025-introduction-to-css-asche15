@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: bisque;
+  font-family: sans-serif;
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+}
+a{
+  margin: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.container{
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #d2691e;
+  background: #fff8f0;
+  border-radius: 8px;
+}
+
+.card {
+  margin: 20px 0;
+  padding: 16px;
+  border: 2px solid #8b4513;
+  background: #ffe4c4;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #d2b48c44;
+}
+
+.sidebar {
+  background: #f5deb3;
+  border: 2px dashed #a0522d;
+  padding: 16px;
+  margin: 20px 0;
+  width: 220px;
+  float: right;
+  border-radius: 8px;
+}
+
+.gallery {
+  margin: 20px 0;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #deb887;
+  border-radius: 8px;
+}
+.gallery img {
+  margin: 8px;
+  border: 3px solid #deb887;
+  border-radius: 6px;
+  width: 150px;
+  height: 150px;
+}
+
+.list-section {
+  margin: 20px 0;
+  padding: 12px;
+  background: #f0e68c;
+  border: 1px solid #bdb76b;
+  border-radius: 8px;
+}
+.list-section ul, .list-section ol {
+  margin: 10px 0 10px 30px;
+}
+.list-section li {
+  margin-bottom: 6px;
+}
+
+.table-section {
+  margin: 20px 0;
+  padding: 12px;
+  background: #fafad2;
+  border: 1px solid #bdb76b;
+  border-radius: 8px;
+}
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-section th, .table-section td {
+  border: 1px solid #bdb76b;
+  padding: 8px 12px;
+  text-align: left;
+}
+.table-section th {
+  background: #f5deb3;
+}
+
+.form-section {
+  margin: 20px 0;
+  padding: 16px;
+  background: #e0ffff;
+  border: 1px solid #20b2aa;
+  border-radius: 8px;
+}
+.form-section label {
+  display: block;
+  margin: 8px 0 4px;
+}
+.form-section input, .form-section textarea, .form-section select {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #b0c4de;
+  border-radius: 4px;
+}
+.form-section button {
+  background: #20b2aa;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-section button:hover {
+  background: #008b8b;
+}
